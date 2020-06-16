@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    color: black;
+    justify-content: center;
+    width: 100%;
+}
+
+#time {
+    font-size: 100px;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    opacity: 0.6;
+}
+
+@media(max-width: 720px) {
+    #time {
+        font-size: 40px;
+    }
+}
